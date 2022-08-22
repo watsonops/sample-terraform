@@ -1,0 +1,8 @@
+module "key_pair" {
+  source = "terraform-aws-modules/key-pair/aws"
+
+  key_name   = "dwatson-aws"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCW5hAe00SbnCrtAhL1aCSx66yJkYfjx4xHq6Y5oq5LKMyWOq+7UOBkO+A/yw7lgo72RdMmIzM+WUatN9QfK6S+WpvsVjInoJd3i7jQmsDUR4POsoa2Y+HQZRcKjIJX1MHjDoT2bEs3ncdJ58aJQq5mYbzI90nXAPoRYUH2zTQtVl6BxgRtZnz6cbahbtvJRYLk2YYp3KygXrnC+FvlZGI6Tv/XL6beOrhu5FDGNI7kxRJvY+RxSXlbo6m03l5KYon1TsYexMHdl9HfoAqTDcuN6xVQI8KAO25vq1e2ZoBtYIG4XDKZdOn9AfWfzJrfm1u6mVGOh+TJ2sYxC+jMU3Kzm1UddoAj5x6ye4+T8M1wnPixWmYQ4juDyEVmKZ7DFEo2GxZVpVG1jpVuxu6Hxh/BoJkc8eZOLRI3+az25N2xwH+ebEV7K8tK3zapKA+komloLhkPvrFwGbERWAE6G7ptFKXPUE5zup9AoYPzjjpp/iOO9THaKZ0Qs3fTCnd1bM6NlqVrU63fbsOs2T/4qe23xROgdCFnvAJh0afdAfwso66ETEmM28Guy1sgihkNovaU5RrcJTyvUUT2R29xROqn+qVl6vq07y7OElVUUc/+0MnN+3Y4hbrmin17Ve0CSF8jq8OWl64Np6Zv/+sc5m3xdJfaF46Gz0JpfvjH2oCZgQ== dwatson@dwatson-laptop"
+}
+
+

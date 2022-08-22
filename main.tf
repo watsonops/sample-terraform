@@ -5,17 +5,15 @@ terraform {
       name = "watsonspace"
     }
   }
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 3.27"
+      version = "~> 4.2" 
     }
   }
 }
 # -- AWS Provider
 provider "aws" {
-  profile = "default"
   region  =  var.aws_region
 }
 ## -- KMS Key
